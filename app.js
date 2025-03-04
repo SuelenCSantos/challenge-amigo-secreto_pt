@@ -12,6 +12,7 @@ function adicionarAmigo() {
 
     validarCampo();
     limparCampo();
+    resultado.innerHTML = '';
     console.log(amigos);
 };
 
